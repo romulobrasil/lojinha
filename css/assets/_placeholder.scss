@@ -1,0 +1,34 @@
+// Placeholder
+%transition {
+	-webkit-transition: all ease-in-out $time-transition; 
+	-moz-transition: all ease-in-out $time-transition; 
+	transition: all ease-in-out $time-transition;
+}
+
+%vertical-align {
+	position: relative;
+	top: 50%;
+	-webkit-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+}
+
+%clearfix {
+    &:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+}
+
+%arrows {
+    width: 80px;
+    height: 80px;
+    background-color: $white;
+    position: absolute;
+    top: 50%;
+    margin: -40px 0 0 0;
+    z-index: 99999;
+    cursor: pointer;
+}
+

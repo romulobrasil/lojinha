@@ -1,0 +1,76 @@
+// SPRITES
+
+// MENU
+.sprite-narugo {
+    @include menu-icon(0 0); 
+}
+.sprite-targo {
+    @include menu-icon(-73px 0); 
+}
+.sprite-ika {
+    @include menu-icon(-148px 0); 
+}
+.sprite-ebi {
+    @include menu-icon(-226px 0); 
+}
+.sprite-sayori {
+    @include menu-icon(-293px 0); 
+}
+.sprite-isi {
+    @include menu-icon(-363px 0); 
+}
+.sprite-medai {
+    @include menu-icon(-429px 0); 
+}
+.sprite-hamachi {
+    @include menu-icon(-497px 0); 
+}
+.sprite-roe {
+    @include menu-icon(-564px 0); 
+}
+
+// INFO
+.sprite-entrega {
+    width: 80px;
+    @include info-icon(0 -64px); 
+}
+
+.sprite-comer {
+    width: 25px;
+    @include info-icon(-126px -64px); 
+}
+
+.sprite-cartao {
+    width: 60px;
+    @include info-icon(-198px -64px); 
+}
+
+// FORM PESQUISA
+.sprite-lupa {
+    display: block;
+    width: 26px;
+    height: 26px;
+    background-position: -295px -65px;
+    border: 0;
+    background-color: transparent;
+    position: absolute;
+    top: 8px;
+    right: 8px;
+}
+
+// BANNER
+.sprite-next {
+    width: 41px;
+    height: 63px;
+    background-position: -415px -64px;
+    margin: 0 auto;
+    @extend %vertical-align;
+}
+
+.sprite-prev {
+    width: 41px;
+    height: 63px;
+    background-position: -346px -64px;
+    margin: 0 auto;
+    @extend %vertical-align;
+}

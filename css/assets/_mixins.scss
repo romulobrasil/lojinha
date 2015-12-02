@@ -1,0 +1,16 @@
+// SPRITE MENU
+@mixin menu-icon($position) {
+    display: block;
+    width: 55px;
+    height: 30px;
+    background-position: $position;
+    margin: 0 auto 5px;
+}
+
+@mixin info-icon($position) {
+    display: inline-block;
+    vertical-align: top;
+    height: 47px;
+    background-position: $position;
+    margin: 0 2px 0 0;
+}
